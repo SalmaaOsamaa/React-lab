@@ -11,3 +11,118 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Navbar{
+  
+  color: azure;
+  background-color: #0000FF;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  
+
+  
+}
+.Navbar li{
+   display: inline;
+   margin: 20px;
+
+ 
+
+}
+.MainHeader{
+  color: aliceblue;
+  text-align: center;
+  background-image: url(../src/img/p.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  padding: 18rem;
+}
+ button{
+  width: 20%;
+  height: 5vh;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px #ccc;
+  font-size: 15px;
+} 
+
+.SkillBox{
+  display: flex;
+  width: 100%;
+  
+ 
+  
+  
+}
+.column{
+  justify-content: space-between;
+  color:black;
+  font-size: 25px;
+  font-weight: 500;
+  flex-direction: row;
+  background-image: url(../src/img/ww.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+  width: 33.3%;
+  text-align: center;
+  padding: 25px;
+  margin: 30px;
+  
+}
+.column p{
+  background-color: #ccc;
+}
+
+p {
+  font-size: 20px;
+}
+
+.para{
+  background-color:deepskyblue;
+  text-align: center;
+  font-size: 30px;
+  height: 10vh;
+  color:black;
+}
+span{
+  margin: 12px;
+}
+.New{
+  width: 500px;
+  height: 2em;
+  background-color: black;
+  border-radius: 1em;
+  color: #ccc;
+  text-align: center;
+}
+.New-1{
+  width: 300px;
+  height: 2em;
+  border-radius: 1em;
+  background-color: #0000FF;
+  color: #ccc;
+  text-align: center;
+
+}
+.New-2{
+  width: 200px;
+  height: 2em;
+  border-radius: 1em;
+  background-color: coral;
+  color: #ccc;
+  text-align: center;
+
+}
+footer{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+  padding: 30px;
+  background-color: yellowgreen;
+  margin-top: 15px;
+  width: 100%;
+
+}
